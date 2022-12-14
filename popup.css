@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  display: inline;
+  font-size: large;
+}
+
+.navbar {
+  background-color: rgb(219, 218, 218);
+  display: grid;
+  align-items: center;
+  color: rgb(8, 8, 8);
+  font-size: large;
+  height: 52px;
+  box-shadow: 0px 4px 11px rgb(190, 187, 187);
+}
+#form {
+  border: 2px solid #585858;
+  width: 16vw;
+  padding: 17px;
+  margin-left: 290px;
+  margin-top: 20px;
+  border-radius: 13px;
+  box-shadow: 9px 5px 13px #949393;
+  background-color: #585858;
+}
+#editform {
+  border: 2px solid rgb(219, 219, 219);
+  box-shadow: -4px 5px 5px rgb(219, 219, 219);
+  border-radius: 10px;
+  padding: 4px;
+  width: 277px;
+  position: relative;
+  left: 176px;
+  top: 3px;
+}
+#edit_time_form{
+  border: 2px solid rgb(219, 219, 219);
+  box-shadow: -4px 5px 5px rgb(219, 219, 219);
+  border-radius: 10px;
+  padding: 4px;
+  width: 277px;
+  position: relative;
+  left: 176px;
+  top: 3px;
+  margin: 5px;
+}
+.form-control {
+  height: 28px;
+  width: 70px;
+}
+.form-label {
+  font-size: small;
+  padding: 0px;
+  margin: 0px;
+}
+#time {
+  position: relative;
+  top: -35px;
+  left: 18px;
+  display: inline;
+  margin-left: 6px;
+}
+.container {
+  margin-right: 19px;
+  margin-left: 14px;
+  width: 573px;  
+}
+
+.delete {
+  border-radius: 5px;
+  margin: 6px;
+  border: 0px solid white;
+  background-color: rgba(240, 248, 255, 0);
+}
+.edit {
+  border-radius: 5px;
+  height: 30px;
+  width: 28px;
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.link {
+  border: 0px;
+}
+
+.logo {
+  height: 32px;
+  width: 32px;
+  margin: 5px 12px;
+}
+.height32 {
+  height: 32px;
+}
+
+#initializeadd {
+  position: relative;
+  bottom: 1px;
+  left: 291px;
+}
+
+.add {
+  border: 0px;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.form-control-add {
+  border: 2px solid #c8c7c7;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+}
+#editform{
+  margin: 7px;
+}
+#reset{
+  margin-left: 25px;
+  margin-bottom: 4px;
+}
+.edit_time{
+  border: 0px;
+  margin: 4px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.add_time{
+  border: 0px;
+  margin: 4px;
+  background-color: #2d070700;
+}

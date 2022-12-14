@@ -1,0 +1,12 @@
+{
+  "name": "Time-table",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": { "128": "timetable-new-new-removebg-preview.png" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "timetable-new-new-removebg-preview.png"
+  },
+  "options_page": "options.html"
+}
